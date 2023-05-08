@@ -10,6 +10,11 @@
  */
 
 // Part 1 answer 👇🏻 ...
+const fullName = "Turki Alazemi";
+const yearOfBirth = "1998";
+let hobby = "Powerlifting";
+let funFact = "I'm sooo hungry";
+const image = "https://photos5.appleinsider.com/gallery/24967-33208-topcaption1-l.jpg"; 
 
 
 
@@ -33,6 +38,10 @@
 // const yearOfBirthString =
 // const hobbyString =
 
+const fullNameString = `My name is ${fullName}`;
+let age = 2023-yearOfBirth;
+const yearOfBirthString = ` I am ${age}`;
+const hobbyString = `My hobby is ${hobby}`;
 
 
 
@@ -45,14 +54,18 @@ let stars = 0;
 
 function incrementBy1() {
   // Increment stars by 1 👇🏻
+  stars++;
 }
 function decrementBy1() {
   // decrement stars by 1 👇🏻
+  stars--;
 }
 
 function incrementBy2() {
   // Increment stars by 2 👇🏻
+  stars=stars+2;
 }
 function decrementBy2() {
   // decrement stars by 2 👇🏻
+  stars=stars-2;
 }
